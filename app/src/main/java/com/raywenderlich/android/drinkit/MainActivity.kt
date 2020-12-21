@@ -1,9 +1,14 @@
 package com.raywenderlich.android.drinkit
 
+import android.content.BroadcastReceiver
+import android.content.Context
+import android.content.Intent
+import android.content.IntentFilter
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import com.google.android.gms.common.ConnectionResult
 import com.google.android.gms.common.GoogleApiAvailability
 import com.google.android.gms.tasks.OnCompleteListener
@@ -58,28 +63,40 @@ class MainActivity : AppCompatActivity() {
 
 
     // TODO: check in bundle extras for notification data
+    //With this, you’re displaying the content of the notification payload in text_view_notification.
+      val bundle = intent.extras
+      if (bundle != null) {
+          text_view_notification.text = bundle.getString("text")
+      }
   }
 
 
   override fun onStart() {
     super.onStart()
     //TODO: Register the receiver for notifications
+//      create the broadcast manager instance
+//      so whenever a notification arrives,
+//      you check if the data labeled MyData is available.
+      LocalBroadcastManager.getInstance(this).registerReceiver(messageReceiver, IntentFilter("MyData"))
   }
 
   override fun onStop() {
     super.onStop()
     // TODO: Unregister the receiver for notifications
+//      you’ll unregister this receiver to avoid keeping it in memory when it’s no longer needed.
+      LocalBroadcastManager.getInstance(this).unregisterReceiver(messageReceiver)
   }
 
   // TODO: Add a method for receiving notifications
+//    This BroadcastReceiver checks the notification when it arrives and looks for the string called message.
+//    It then puts it on the screen, assigning it to notification_text.
+  private val messageReceiver: BroadcastReceiver = object : BroadcastReceiver() {
+      override fun onReceive(context: Context?, intent: Intent) {
+          text_view_notification.text = intent.extras?.getString("message")
+      }
+  }
 
   // TODO: Add a function to check for Google Play Services
-
-  // TODO: Create a message receiver constant
-
-  companion object {
-    private const val TAG = "MainActivity"
-  }
 
 //    First, you use Android’s availability API to check for Google Play Services.
 //    If the status isn’t successful, you need to manage the error. In this case, you know the user can’t receive push notifications.
@@ -99,4 +116,10 @@ class MainActivity : AppCompatActivity() {
             true
         }
     }
+  // TODO: Create a message receiver constant
+
+  companion object {
+    private const val TAG = "MainActivity"
+  }
+
 }

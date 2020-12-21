@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml:2:1-39:12
+ADDED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml:2:1-48:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta4] C:\Users\bibayjai\.gradle\caches\transforms-2\files-2.1\9bf90a724e7b4e9187659a2bf27a4f7d\constraintlayout-2.0.0-beta4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\bibayjai\.gradle\caches\transforms-2\files-2.1\577ee65ff452184e777361c886f787b9\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-messaging:21.0.1] C:\Users\bibayjai\.gradle\caches\transforms-2\files-2.1\6f722f719de9199bb44a2ea2fd5741d5\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:17:1-45:12
@@ -55,27 +55,27 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\bibayjai\.gradle\caches\transf
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\bibayjai\.gradle\caches\transforms-2\files-2.1\6e2ef005cefecbbcd173795e5c8e4d8c\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\bibayjai\.gradle\caches\transforms-2\files-2.1\8ad4451a9b9820b444ced0aa87cbc3b2\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\bibayjai\.gradle\caches\transforms-2\files-2.1\2b1b37bd185ed4c8e9ee02ab13381474\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml:2:1-48:12
 	package
 		ADDED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml:2:11-54
 		INJECTED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml:2:1-39:12
+		ADDED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml:2:1-48:12
 		INJECTED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml:4:5-51
 	android:versionCode
 		INJECTED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml:2:1-39:12
+		ADDED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml:2:1-48:12
 		INJECTED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml:3:5-63
 application
-ADDED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml:6:3-37:17
+ADDED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml:6:3-46:17
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta4] C:\Users\bibayjai\.gradle\caches\transforms-2\files-2.1\9bf90a724e7b4e9187659a2bf27a4f7d\constraintlayout-2.0.0-beta4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta4] C:\Users\bibayjai\.gradle\caches\transforms-2\files-2.1\9bf90a724e7b4e9187659a2bf27a4f7d\constraintlayout-2.0.0-beta4\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-messaging:21.0.1] C:\Users\bibayjai\.gradle\caches\transforms-2\files-2.1\6f722f719de9199bb44a2ea2fd5741d5\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:22:5-43:19
@@ -166,6 +166,18 @@ action#com.google.firebase.MESSAGING_EVENT
 ADDED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml:30:9-70
 	android:name
 		ADDED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml:30:17-67
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml:39:5-41:63
+	android:resource
+		ADDED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml:41:9-60
+	android:name
+		ADDED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml:40:9-79
+meta-data#com.google.firebase.messaging.default_notification_color
+ADDED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml:42:5-44:50
+	android:resource
+		ADDED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml:44:9-47
+	android:name
+		ADDED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml:43:9-80
 uses-sdk
 INJECTED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\bibayjai\Desktop\Robinson\Drink-it_Materials-1\Drink-it_Materials\starter\app\src\main\AndroidManifest.xml

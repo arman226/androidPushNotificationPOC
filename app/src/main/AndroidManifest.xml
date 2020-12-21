@@ -33,6 +33,15 @@
 
 
     <!-- TODO: Change the color and action of the notification -->
+<!--    The first tag sets the notification icon; the second sets the color. -->
+<!--    The name values are standard, so every time you want to change the icon or color, you’ll add the same value to the name attribute.-->
+<!--    The resource value is the one you’ll configure. For the icon, it can have any drawable and for the color, any valid value is possible.-->
+    <meta-data
+        android:name="com.google.firebase.messaging.default_notification_icon"
+        android:resource="@drawable/ic_launcher_background" />
+    <meta-data
+        android:name="com.google.firebase.messaging.default_notification_color"
+        android:resource="@color/colorPrimary" />
 
   </application>
 
